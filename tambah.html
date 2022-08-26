@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Siswa</title>
+</head>
+<body>
+    
+    <h1>Tambah Siswa</h1>
+
+    <h3>Isikan semua data dengan benar, lalu ketik tombol simpan</h3>
+
+    <form action="">
+        <label for="username" style="margin-right: 155px;">Nama</label>:
+	    <input type="text" id="username">
+	    <br>
+
+        <label  style="margin-right: 123px;" for="">Kota Lahir</label>:   
+	    <select>
+		    <option>Surabaya</option>
+		    <option>Malang</option>
+		    <option>Sidoarjo</option>
+	    </select>
+        <br>
+
+        <label for="" style="margin-right: 108px ;">Tanggal lahir</label>:
+        <input type="date">
+        <br>
+
+        <label for="" style="margin-right: 146px ;">Agama</label>:
+        <input type="radio" id="islam" name="agama"><label for="islam">Islam</label>
+	    <input type="radio" id="kristen" name="agama"><label for="kristen">Kristen</label>
+	    <input type="radio" id="katolik" name="agama"><label for="katolik">Katolik</label>
+	    <input type="radio" id="hindu" name="agama"><label for="hindu">Hindu</label>
+	    <input type="radio" id="konghucu" name="agama"><label for="konghucu">Konghucu</label>
+        <br>
+
+        <label for="" style="margin-right: 162px ;">Foto</label>:
+        <input type="file">
+	    <br> <br>
+	    <!-- Untuk mengirim request berupa file -->
+
+        <table>
+            <tr>
+                <td>
+                    <button type="submit">simpan</button> 
+                </td>
+                <td>
+                    <a href="table.html"><button type="button" style="margin-left: 500px ;">Kembali</button></a>
+                </td>
+            </tr>     
+        </table>
+	    
+    </form>
+
+</body>
+</html>
